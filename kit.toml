@@ -1,0 +1,47 @@
+# TODO: Customize this for your team
+# Full reference: https://github.com/MagnusPladsen/ai-kit-engine/blob/main/docs/REFERENCE.md
+
+[branding]
+name = "My AI Kit"             # Your kit's display name
+short_name = "MY-KIT"          # Uppercase abbreviation
+tagline = "AI rules and skills for my team"
+watermark = "my-ai-kit"        # Used in file markers (no spaces)
+config_dir = ".my-kit"         # Config directory name (starts with .)
+# ascii_art_file = "branding/ascii.txt"  # Uncomment to use custom logo
+
+[settings]
+default_theme = "Tokyo Night"
+
+[defaults]
+rules = true
+skills = true
+registry = true
+profiles = true
+
+# Uncomment and customize the stacks your team uses:
+
+# [stacks.react]
+# name = "React / Next.js / React Native / Expo"
+# detect = ["package.json", "tsconfig.json"]
+# rules_dir = "react"
+
+# [stacks.dotnet]
+# name = ".NET / C#"
+# detect = ["*.csproj", "*.sln"]
+# rules_dir = "dotnet"
+
+# [stacks.python]
+# name = "Python / FastAPI / Django"
+# detect = ["pyproject.toml", "requirements.txt", "Pipfile"]
+# rules_dir = "python"
+
+# [stacks.integrations]
+# name = "Integrations (GitHub, Jira, Azure DevOps, Bitbucket)"
+# rules_dir = "integrations"
+
+# Custom themes:
+# [[custom_themes]]
+# name = "My Brand"
+# lime = [200, 214, 75]
+# teal = [62, 205, 198]
+# gold = [220, 200, 60]
