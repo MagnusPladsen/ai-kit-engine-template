@@ -1,3 +1,5 @@
+![AI-assisted](https://img.shields.io/badge/built%20with-AI%20assistance-blue)
+
 # My AI Kit
 
 > Created from [ai-kit-engine-template](https://github.com/MagnusPladsen/ai-kit-engine-template)
